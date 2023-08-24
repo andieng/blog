@@ -1,0 +1,11 @@
+.nav-item {
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: var(--color-white);
+    font-weight: 600;
+    transition: background-color 0.1s ease;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+}
