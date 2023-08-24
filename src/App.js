@@ -10,9 +10,9 @@ function App() {
                     {publicRoutes.map((route, index) => {
                         const Page = route.page;
                         let Layout = DefaultLayout;
-                        // if (route.layout) {
-                        //     Layout = route.layout;
-                        // }
+                        if (route.layout) {
+                            Layout = route.layout;
+                        }
                         return (
                             <Route
                                 key={index}
