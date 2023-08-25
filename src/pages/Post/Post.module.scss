@@ -113,3 +113,38 @@
     margin-left: 10px;
     font-size: 1.4rem;
 }
+
+.other-post {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px 14px;
+    margin-top: 10px;
+    cursor: pointer;
+
+    & + .other-post {
+        margin-top: 8px;
+    }
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+}
+
+.other-title {
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.other-reaction {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.other-number-reaction {
+    margin-left: 5px;
+    font-weight: 400;
+}
